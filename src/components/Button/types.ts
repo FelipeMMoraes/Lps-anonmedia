@@ -1,10 +1,10 @@
 import { ReactNode } from 'react'
-import { IconType } from 'react-icons'
 
 type ButtonProps = {
   children: ReactNode
-  isActive?: boolean
-  icon?: IconType
+  textColor?: string
+  backgroundColor?: string
+  hoverBackgroundColor?: string
 }
 
 export type { ButtonProps }

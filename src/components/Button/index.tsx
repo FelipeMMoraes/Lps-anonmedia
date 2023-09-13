@@ -1,13 +1,10 @@
+import React from 'react'
 import * as S from './styled'
+import { ButtonProps } from './types'
 
-import type { ButtonProps } from './types'
-
-const Button = ({ children, icon: Icon }: ButtonProps) => (
+const Button: React.FC<ButtonProps> = ({ children, ...props }) => (
   <S.ButtonContainer>
-    <S.Button>
-      {Icon && <Icon size={24} />}
-      {children}
-    </S.Button>
+    <S.Button {...props}>{children}</S.Button>
   </S.ButtonContainer>
 )
 
