@@ -6,6 +6,7 @@ import B6 from '../../assets/img/vitamins/B.png'
 import C from '../../assets/img/vitamins/C.png'
 import coffe from '../../assets/img/vitamins/coffee-beans.png'
 
+import { Button } from '../Button'
 import { Price } from '../Price'
 import * as S from './styled'
 
@@ -26,6 +27,15 @@ const Section10 = () => (
           <CardVitamins svgSrc={C}>Cromo</CardVitamins>
         </S.ContainerVitamins>
         <Price />
+        <S.ContainerButton>
+          <Button
+            backgroundColor="#0d271e"
+            textColor="#ffffff"
+            hoverBackgroundColor="#1d5340"
+          >
+            COMPRE AGORA MESMO
+          </Button>
+        </S.ContainerButton>
       </S.Text>
     </Container>
   </S.Section10>

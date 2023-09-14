@@ -37,9 +37,6 @@ const Img = styled.img`
   }
 `
 
-const ButtonContainer = styled.button`
-  margin-top: 20px;
-`
 const ContainerVitamins = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -48,4 +45,8 @@ const ContainerVitamins = styled.div`
   margin-bottom: 30px;
 `
 
-export { ButtonContainer, Cifrao, ContainerVitamins, Img, Section10, Text }
+const ContainerButton = styled.div`
+  margin-top: 20px;
+`
+
+export { Cifrao, ContainerButton, ContainerVitamins, Img, Section10, Text }

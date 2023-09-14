@@ -39,6 +39,11 @@ const SmallPrice = styled.div`
 
 const ContainerPrice = styled.div`
   display: flex;
+  margin-left: 20px;
+
+  @media(max-width: 1024px) {
+    margin-left: 0;
+  }
 `
 
 const Cifrao = styled.div`

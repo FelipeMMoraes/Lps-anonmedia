@@ -13,7 +13,7 @@ const Section5 = () => (
           <Button
             textColor="#c8d429"
             backgroundColor="#0d271e"
-            hoverBackgroundColor="#0d3a10"
+            hoverBackgroundColor="#1d5340"
           >
             EU QUERO EMAGRECER!
           </Button>
