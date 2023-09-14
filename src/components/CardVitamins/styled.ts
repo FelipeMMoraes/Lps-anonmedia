@@ -17,7 +17,7 @@ const SvgCard = styled.div`
   background-color: #c8d429;
   padding: 15px;
   border-radius: 100%;
-  margin-right: 30px;
+  margin-right: 20px;
 
   img {
     width: 100%;

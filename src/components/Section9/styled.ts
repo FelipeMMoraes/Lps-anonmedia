@@ -37,6 +37,12 @@ const ContainerDepoiments = styled.div`
   display: flex;
   gap: 50px;
   margin-bottom: 60px;
+
+  @media (max-width: 900px) {
+    flex-direction: column;
+
+    margin-bottom: 30px;
+  }
 `
 
 const Depoiments = styled.div`

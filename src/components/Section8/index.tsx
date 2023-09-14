@@ -1,7 +1,7 @@
 import { Button } from '../Button'
 import { Container } from '../Container'
 
-import product from '../../assets/img/section8.png'
+import product from '../../assets/img/Section8.png'
 
 import * as S from './styled'
 
