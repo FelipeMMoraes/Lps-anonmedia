@@ -24,9 +24,12 @@ const GlobalStyle = createGlobalStyle`
     }
     
     &::-webkit-scrollbar-track{
+      background-color: #0d271e;
     }
 
     &::-webkit-scrollbar-thumb{
+      background-color: #c7d329;
+      border-radius: 8px;
     }
   }
 
